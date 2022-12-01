@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Alexandria', sans-serif;
+    color:white;
+   }
+.navi{
+    height:15vh;
+   display:flex;
+    font-size:1.3rem;
+
+ position:relative;
+ padding:25px;
+ 
+    
+}
+
+.list{
+    list-style:none;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+   position:absolute;
+   left:30%;
+    font-size:1rem;
+    
+
+}
+
+.listlink{
+    text-decoration:none;
+    margin-right:40px;
+    color:white;
+
+}
+.listlink:hover{
+    color:#F8BF2C;
+}
+.btn{
+    background-color:#F8BF2C;
+    padding:10px;
+    
+    font-size:1.2rem;
+    border-radius:5px;
+    margin-left:180px;
+}
+.header{
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.585),rgba(0, 0, 0, 0.591)),url('/images/burger.jpg');
+height:100vh;
+position:relative;
+
+
+}
+.main{
+    position:absolute;
+    text-align: center;
+   
+    left:50%;
+    top:50%;
+   
+    transform:translate(-50%,-50%);
+}
+.design{
+    height:120px;
+}
+.heading1{
+    font-size:3rem;
+    margin-top:30px;
+    letter-spacing: 4px;
+
+}
+.para1{
+    font-size:1.2rem;
+    margin-top:15px;
+    font-style:italic;
+    font-family: 'Playfair Display', serif;
+   
+}
+.buton{
+    font-size:1rem;
+    margin-top:20px;
+    display:inline-block;
+    padding:15px;
+    border:1px solid white;
+    font-family: 'Alexandria', sans-serif;
+    font-weight:500;
+    letter-spacing:2px;
+
+}
+.story{
+    height:85vh;
+    
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+.heading2{
+    font-family: 'Great Vibes', cursive;
+    
+    color:#F8BF2C;
+    font-size:4rem;
+    font-weight:lighter;
+    
+}
+.heading2_1{
+    color:black;
+    font-size:2rem;
+}
+.para2{
+    color:black;
+   
+    padding:20px 80px;
+
+}
+.buton2{
+   background-color:#F8BF2C;
+  
+   outline:5px solid #F8BF2C;
+
+}
+.buton2:hover{
+    color:white;
+}
+.right{
+   margin-right:50px;
+   
+}
+.dish{
+   margin-right:40px;
+   height:360px;
+   outline:1px solid white;
+   outline-offset:-10px;
+   outline-color:rgba(243, 243, 243, 0.807);
+
+}
+.image{
+    height:75vh;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.585),rgba(0, 0, 0, 0.591)),url('/images/spices.jpg');
+    position:relative;
+    text-align:center;
+    background-attachment:fixed;
+}
+.main2{
+   position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.chefs{
+    height:85vh;
+   
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+.left_2{
+    margin-left:50px;
+}
+.recipe{
+    height:100vh;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.762),rgba(0, 0, 0, 0.1)),url('/images/lime.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   position:relative;
+background-attachment: fixed;
+   
+
+}
+.content{
+    position:absolute;
+    left:20%;
+    top:15%;
+    text-align:center;
+}
+.heading1_1{
+    font-size:2.5rem;
+    margin-top:-10px;
+}
+.menu{
+    position:absolute;
+    margin-top:50px;
+    margin-left:-150px;
+    text-align:left;
+    width:800px;
+    height:300px;
+    display:grid;
+    grid-template-columns: 350px 350px;
+    grid-row: auto auto;
+    grid-column-gap: 50px;
+   
+}
+.heading3{
+    font-size:1.3rem;
+    font-weight:lighter;
+    letter-spacing:2px;
+    margin-bottom:15px;
+
+}
+.box1 .heading3::after{
+    content:"$12.95";
+color:#F8BF2C;
+font-size:1.4rem;
+    font-weight:lighter;
+}
+.box2 .heading3::after{
+    content:"$19.55";
+color:#F8BF2C;
+font-size:1.4rem;
+    font-weight:lighter;
+}
+.box3 .heading3::after{
+    content:"$9.95";
+color:#F8BF2C;
+font-size:1.4rem;
+    font-weight:lighter;
+}
+.box4 .heading3::after{
+    content:"$10.50";
+color:#F8BF2C;
+font-size:1.4rem;
+    font-weight:lighter;
+}
+
+.para3{
+    font-size:.9rem;
+    font-weight:lighter;
+    letter-spacing:1px;
+
+}
+.button{
+ position:absolute;
+    color:white;
+    border:1px solid white;
+   box-sizing: border-box;
+   top:85%;
+   left:25%;
+   padding:10px 70px;
+   font-size:.7rem;
+   font-weight:lighter;
+   letter-spacing:2px;
+   font-family:'Alexandria', sans-serif;
+}
+.menuimg{
+    height:20px;
+    position:absolute;
+    left:30px;
+}
+.button:hover{
+    background-color:white;
+    color:#F8BF2C;
+    border: 5px solid #F8BF2C;
+}
+.news{
+    height:120vh;
+position:relative;
+
+}
+.headings{
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
+.container{
+    position:absolute;
+  
+    display:grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-row: 1;
+   
+   text-align:center;
+   margin-left:100px;
+   
+}
+.c{
+    
+    margin-top:280px;
+    color:black;
+    margin-right:30px;
+    font-weight:lighter;
+    align-items: center;
+}
+.heading4{
+    font-weight:light;
+    margin-top:10px;
+}
+
+.para4{
+    margin-top:15px;
+    font-size:.9rem;
+    color:rgb(94, 94, 94);
+}
+.img{
+   width:350px;
+    height:250px;
+object-fit: cover;
+}
+.buton3{
+    margin:30px 0 0 30px;
+}
+.picks{
+    height:120vh;
+    position:relative;
+
+}
+.wrapper{
+    position:absolute;
+    top:65%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap:5px;
+
+}
+.dishes{
+    height:200px;
+    width:225px;
+    object-fit: cover;
+   filter:grayscale(100%);
+    transition:all .3s ease-in-out;
+}
+.dishes:hover{
+    filter:none;
+}
+.footer{
+    height:70vh;
+    background-image:url('/images/old-grunge-black-textures.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    position:relative;
+    
+}
+.foot{
+    position:absolute;
+    display:flex;
+   
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+    font-weight:lighter;
+    text-align:left;
+   
+}
+.part{
+    margin-right:30px;
+    width:280px;
+}
+
+.heading5{
+    font-weight:400;
+    font-size:1.4rem;
+    margin-bottom:20px;
+}
+.footlist{
+    font-size:.8rem;
+}
+.para5{
+    font-size:.85rem;
+}
+.list6{
+    font-size:.8rem;
+    margin:10px 0;
+    display:inline-block;
+}
+.para5::before{
+    content:' ';
+  
+   display:block;
+    height:3px;
+    border-radius:5px;
+    width:70px;
+    margin-bottom:20px;
+ background-color:#F8BF2C;
+}
+.buton4{
+    padding:5px 10px;
+    margin-top:60px;
+}
+
+.smallimg{
+    height:80px;
+    width:80px;
+    object-fit:cover;
+    border:5px solid rgb(72, 45, 45);
+    cursor:pointer;
+}
+.smallimg:hover{
+opacity:.5;
+}
+.address{
+    font-size:.85rem;
+    margin-top:20px;
+}
+.footicon{
+    height:25px;
+   margin-right:10px;
+    box-sizing: border-box;
+    
+}
+.copyright{
+    position:absolute;
+    top:90%;
+    left:7%;
+    display:flex;
+   column-gap: 20rem;
+    
+}
+.follow{
+    display:flex;
+
+}
+.social{
+    height:30px;
+    margin-top:-5px;
+    margin-left:15px;
+}
+.social:hover{
+    transform:scale(1.2);
+    transition:all .2s ease-in;
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES HERE */
+
+
